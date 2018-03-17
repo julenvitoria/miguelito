@@ -8,7 +8,7 @@ author:			ruckage
     <formatVersion>3</formatVersion>
 	
 <!-- Choose your region style (europe or usa) -->	
-	<include>./style/usa.xml</include>	
+	<include>./style/europe.xml</include>	
 	
 <!-- Choose your layout ()see ## LAYOUT GUIDE ##.png) -->
 	<include>./layouts/a.xml</include>
