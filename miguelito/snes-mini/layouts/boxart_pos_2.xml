@@ -9,16 +9,16 @@ author:			ruckage
     <view name="basic, detailed, video">
 				
 		<image name="left_window_box" extra="true">
-			<pos>0.0083333333333333 0.5</pos>
+			<pos>0.035 0.5</pos>
 			<origin>0 0.5</origin>
 		</image>
 		
 		<image name="missing_art" extra="true">
-			<pos>0.1458333333333333 0.5</pos>
+			<pos>0.202 0.5</pos>
 		</image>
 		
 		<image name="md_image">
-			<pos>0.1458333333333333 0.5</pos>
+			<pos>0.202 0.5</pos>
 		</image>
 
 	</view>

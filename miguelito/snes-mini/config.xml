@@ -11,10 +11,10 @@ author:			ruckage
 	<include>./style/europe.xml</include>	
 	
 <!-- Choose your layout ()see ## LAYOUT GUIDE ##.png) -->
-	<include>./layouts/a.xml</include>
+	<include>./layouts/k.xml</include>
 	
 <!-- Choose your resolution -->	
-	<include>./layouts/1920x1080.xml</include> <!-- Only 1920x1080 is currently supported-->
+	<include>./layouts/320x240.xml</include> <!-- Only 1920x1080 is currently supported-->
 
 <!-- Choose your background (For the available options see the jpg files named ## BACKGROUND GUIDE ##) -->	
     <include>./background/neon_black_spectrum.xml</include>

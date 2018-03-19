@@ -5,13 +5,11 @@ author:			ruckage
 
 <theme>
 
-	<include>./4x3setup.xml</include>
-
     <view name="basic, detailed,video">
 
 		<textlist name="gamelist">
-			<size>0.546 0.5481481481481481</size>
-			<pos>0.3944444444444444 0.2185185185185185</pos>			
+			<size>0.48 0.5481481481481481</size>
+			<pos>0.475 0.2155185185185185</pos>			
 			<lineSpacing>1.395</lineSpacing>
 			<selectorHeight>0.064</selectorHeight>
 			<selectorOffsetY>0.007</selectorOffsetY>

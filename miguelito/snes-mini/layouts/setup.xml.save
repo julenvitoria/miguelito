@@ -62,14 +62,6 @@ author:			ruckage
 			<maxSize>0.2416666666666667 0.4296296296296296</maxSize>
 			<origin>0.5 0.5</origin>
 		</image>
-
-		<video name="md_video">
-			<maxSize>0.2416666666666667 0.4296296296296296</maxSize>
-		</video>
-
-		<text name="md_developer, md_publisher, md_genre">
-			<size>0.25 0.0333333333333333</size>
-		</text>
 		
 		<text name="md_playcount">
 			<alignment>center</alignment>
@@ -91,6 +83,39 @@ author:			ruckage
 			<color>3232329a</color>
 		</image>			
 -->		
+		<image name="bar_1" extra="true">
+			<path>./info_bar.png</path>
+			<size>0 0.1111111111111111</size>
+		</image>	
+
+		<image name="bar_1_overlay" extra="true">
+			<path>./info_bar_overlay.png</path>
+			<size>0 0.1111111111111111</size>
+			<zIndex>150</zIndex>
+		</image>
+		
+		<image name="bar_2" extra="true">
+			<path>./info_bar.png</path>
+			<size>0 0.1111111111111111</size>
+		</image>
+
+		<image name="bar_2_overlay" extra="true">
+			<path>./info_bar_overlay.png</path>
+			<size>0 0.1111111111111111</size>
+			<zIndex>150</zIndex>
+		</image>
+
+		<image name="bar_3" extra="true">
+			<path>./info_bar.png</path>
+			<size>0 0.1111111111111111</size>
+		</image>
+		
+		<image name="bar_3_overlay" extra="true">
+			<path>./info_bar_overlay.png</path>
+			<size>0 0.1111111111111111</size>
+			<zIndex>150</zIndex>
+		</image>		
+
 		<image name="bar_4" extra="true">
 			<size>0 0.1111111111111111</size>
 		</image>
@@ -108,12 +133,20 @@ author:			ruckage
 		<image name="left_window_border" extra="true">
 			<path>./window_border.png</path>
 			<size>0 0.6666666666666667</size>
-			<pos>0.03 0.5</pos>
+			<pos>0 0.5</pos>
 			<origin>0 0.5</origin>
 			<color>c8c8c8</color>
 		</image>
 		
-		<image name="left_window_box" extra="true">
+		<image name="right_window_border" extra="true">
+			<path>./window_border.png</path>
+			<size>0 0.6666666666666667</size>
+			<pos>1 0.5</pos>
+			<origin>1 0.5</origin>
+			<color>c8c8c8</color>
+		</image>
+			
+	<image name="left_window_box" extra="true">
 			<path>./window_box.png</path>		
 			<size>0 0.4888888888888889</size>
 			<color>4c4c4c7f</color>
@@ -131,7 +164,7 @@ author:			ruckage
 			<zIndex>200</zIndex>
 		</image>
 
-		<text name="rating_label, played_label" extra="true">
+		<text name="publisher_label, developer_label, genre_label, rating_label, played_label" extra="true">
 			<fontPath>./../art/TinyUnicode.ttf</fontPath>
 			<forceUppercase>1</forceUppercase>
 			<fontSize>0.0592592592592593</fontSize>
@@ -147,17 +180,32 @@ author:			ruckage
 			<text>P</text>
 		</text> -->
 		
+		<text name="publisher_label" extra="true">
+			<alignment>left</alignment>
+			<text>  Published</text>
+		</text>
+		
+		<text name="developer_label" extra="true">
+			<alignment>center</alignment>
+			<text>Developed by</text>
+		</text>		
+
+		<text name="genre_label" extra="true">
+			<alignment>center</alignment>
+			<text>Genre</text>
+		</text>	
+
 		<text name="rating_label" extra="true">
 			<alignment>center</alignment>
 			<size>0.09375 0.0333333333333333</size>
 			<text>Rating</text>
-		</text>
-		
+		</text>	
+
 		<text name="played_label" extra="true">
 			<alignment>center</alignment>
 			<size>0.09375 0.0333333333333333</size>
 			<text>Played</text>
-		</text>		
+		</text>			
 		 
 	</view>
 	
