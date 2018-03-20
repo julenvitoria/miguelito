@@ -14,7 +14,7 @@ author:			ruckage
 		</image>
 		
 		<text name="genre_label" extra="true">
-			<pos>0.06 0.2037037037037037</pos>
+			<pos>0.06 0.1975</pos>
 		</text>
 		
 		<text name="md_genre">

@@ -101,7 +101,7 @@
 		
 		<text name="md_rating, md_developer, md_publisher, md_genre, md_playcount">
 			<forceUppercase>1</forceUppercase>
-			<fontSize>0.0592592592592593</fontSize>
+			<fontSize>0.0792592592592593</fontSize>
 			<color>ffffff</color>
 		</text>	
 		

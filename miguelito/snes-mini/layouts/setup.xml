@@ -68,7 +68,7 @@ author:			ruckage
 		</video>
 
 		<text name="md_developer, md_publisher, md_genre">
-			<size>0.25 0.0333333333333333</size>
+			<size>0.26 0.03</size>
 		</text>
 		
 		<text name="md_playcount">
@@ -131,12 +131,13 @@ author:			ruckage
 			<zIndex>200</zIndex>
 		</image>
 
-		<text name="rating_label, played_label" extra="true">
+		<text name="genre_label, rating_label, played_label" extra="true">
 			<fontPath>./../art/TinyUnicode.ttf</fontPath>
 			<forceUppercase>1</forceUppercase>
-			<fontSize>0.0592592592592593</fontSize>
+			<fontSize>0.0892592592592593</fontSize>
 			<size>0.25 0.0333333333333333</size>
 		</text>
+
 		<!--
 		<text name="players_label" extra="true">
 			<fontPath>./../art/TinyUnicode.ttf</fontPath>
@@ -146,7 +147,12 @@ author:			ruckage
 			<color>ffffff</color>
 			<text>P</text>
 		</text> -->
-		
+
+		<text name="genre_label" extra="true">
+			<alignment>center</alignment>
+			<text>Genre</text>
+		</text>
+
 		<text name="rating_label" extra="true">
 			<alignment>center</alignment>
 			<size>0.09375 0.0333333333333333</size>
