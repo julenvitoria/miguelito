@@ -63,11 +63,7 @@ author:			ruckage
 			<origin>0.5 0.5</origin>
 		</image>
 
-		<video name="md_video">
-			<maxSize>0.2416666666666667 0.4296296296296296</maxSize>
-		</video>
-
-		<text name="md_developer, md_publisher, md_genre">
+		<text name="md_genre">
 			<size>0.26 0.03</size>
 		</text>
 		
@@ -93,16 +89,6 @@ author:			ruckage
 -->		
 		<image name="bar_4" extra="true">
 			<size>0 0.1111111111111111</size>
-		</image>
-		
-		<image name="bar_4_overlay" extra="true">
-			<path>./rating_bar_overlay.png</path>
-			<size>0 0.1111111111111111</size>
-			<zIndex>150</zIndex>			
-		</image>
-		
-		<image name="bar_1_overlay, bar_2_overlay, bar_3_overlay, bar_4_overlay" extra="true">
-			<color>ffffff80</color>
 		</image>
 		
 		<image name="left_window_border" extra="true">
@@ -134,7 +120,7 @@ author:			ruckage
 		<text name="genre_label, rating_label, played_label" extra="true">
 			<fontPath>./../art/TinyUnicode.ttf</fontPath>
 			<forceUppercase>1</forceUppercase>
-			<fontSize>0.0892592592592593</fontSize>
+			<fontSize>0.075</fontSize>
 			<size>0.25 0.0333333333333333</size>
 		</text>
 

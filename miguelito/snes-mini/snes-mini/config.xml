@@ -23,6 +23,6 @@ author:			ruckage
 	<include>./rating/heart.xml</include>	
 
 <!-- Choose how number of players is displayed (icon or text) -->	
-	<include>./players/icon.xml</include>		
+	<include>./players/text.xml</include>		
 
 </theme>

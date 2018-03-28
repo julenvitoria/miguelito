@@ -23,23 +23,23 @@ author:			ruckage
 		</text>
 		
 		<text name="md_players">
-			<pos>0.2495 0.7386296296296296</pos>
+			<pos>0.29 0.7426296296296296</pos>
 		</text>
 
 		<text name="rating_label" extra="true">
-			<pos>0.0495 0.72962962962963</pos>
+			<pos>0.062 0.72962962962963</pos>
 		</text>		
 		
 		<rating name="md_rating">
-			<pos>0.053 0.762962962962963</pos>
+			<pos>0.058 0.762962962962963</pos>
 		</rating>	
 
 		<text name="played_label" extra="true">
-			<pos>0.145 0.72962962962963</pos>
+			<pos>0.172 0.72962962962963</pos>
 		</text>		
 		
 		<text name="md_playcount">
-			<pos>0.145 0.751851851851852</pos>
+			<pos>0.173 0.751851851851852</pos>
 		</text>
 		 
 	</view>

@@ -7,7 +7,7 @@
 		<text name="md_players">
 			<fontPath>./../art/PlayerText.ttf</fontPath>		
 			<forceUppercase>1</forceUppercase>
-			<fontSize>0.0592592592592593</fontSize>
+			<fontSize>0.075</fontSize>
 			<color>ffffff</color>
 			<alignment>center</alignment>
 			<zIndex>100</zIndex>
