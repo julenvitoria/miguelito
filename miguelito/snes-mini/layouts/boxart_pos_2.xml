@@ -18,7 +18,7 @@ author:			ruckage
 		</image>
 		
 		<image name="md_image">
-			<pos>0.202 0.5</pos>
+			<pos>0.2 0.5</pos>
 		</image>
 
 	</view>

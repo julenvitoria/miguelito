@@ -93,7 +93,7 @@ author:			ruckage
 		
 		<image name="left_window_border" extra="true">
 			<path>./window_border.png</path>
-			<size>0 0.6666666666666667</size>
+			<size>0 0.65</size>
 			<pos>0.03 0.5</pos>
 			<origin>0 0.5</origin>
 			<color>c8c8c8</color>
@@ -101,7 +101,7 @@ author:			ruckage
 		
 		<image name="left_window_box" extra="true">
 			<path>./window_box.png</path>		
-			<size>0 0.4888888888888889</size>
+			<size>0 0.505</size>
 			<color>4c4c4c7f</color>
 			<zIndex>-100</zIndex>
 		</image>		
